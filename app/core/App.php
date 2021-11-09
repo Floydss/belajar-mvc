@@ -31,7 +31,7 @@ class App {
         }
 
         // run controller & method
-        call_user_func_array([$this->contorller, $this->method], $this->params);
+        call_user_func_array([$this->controller, $this->method], $this->params);
 
     } 
 
